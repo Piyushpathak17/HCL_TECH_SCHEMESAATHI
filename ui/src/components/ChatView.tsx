@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 import { CalendarCheck, FileText, ListChecks, RotateCcw, X } from "lucide-react";
-import { useSession } from "../state/session";
-import { useChat } from "../state/chat";
+import { useSession } from "../state/session.tsx";
+import { useChat } from "../state/chat.tsx";
 import { formatDate } from "../lib/format";
-import { AssistantCard, UserBubble } from "./MessageCard";
-import { Logo, Notice } from "./common";
+import { AssistantCard, UserBubble } from "./MessageCard.tsx";
+import { Logo, Notice } from "./common.tsx";
 
 const STARTERS: { text: string; lang: string; tag: string }[] = [
   { text: "मेरे पास 2 एकड़ ज़मीन है और मैं खेती करता हूँ। मुझे कौन सी योजनाएँ मिल सकती हैं?", lang: "hi", tag: "हि" },

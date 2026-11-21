@@ -13,7 +13,7 @@ import {
   type LucideIcon,
 } from "lucide-react";
 import type { ActionType, PendingAction } from "../types";
-import { useT } from "../state/session";
+import { useT} from "../state/session";
 import { useChat } from "../state/chat";
 import type { ActionState } from "../state/session";
 import { attrLabel } from "../lib/attributes";
