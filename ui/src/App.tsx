@@ -1,7 +1,7 @@
 import { SessionProvider } from "./state/session";
 import { UIProvider, useUI } from "./state/ui";
 import { ChatProvider } from "./state/chat";
-import { AppShell } from "./components/AppShell";
+import { AppShell } from "./components/Appshell";
 import { AskPage } from "./pages/AskPage";
 import { EligibilityPage } from "./pages/EligibilityPage";
 import { SchemesPage } from "./pages/SchemesPage";

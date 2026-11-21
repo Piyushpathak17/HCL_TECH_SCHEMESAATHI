@@ -4,7 +4,7 @@ import type { I18nKey } from "../i18n";
 import { useSession } from "../state/session";
 import { useChat } from "../state/chat";
 import { useUI, type Tab } from "../state/ui";
-import { TopBar } from "./TopBar";
+import {TopBar} from "./TopBar";
 import { DrawerHost } from "./DrawerHost";
 
 const NAV: { tab: Tab; icon: LucideIcon; label: I18nKey; short?: I18nKey }[] = [
